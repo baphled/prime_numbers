@@ -6,5 +6,6 @@ class PrimeNumbers::Display
   end
 
   def print
+    PrimeNumbers::Matrix.new(primes.primes)
   end
 end
