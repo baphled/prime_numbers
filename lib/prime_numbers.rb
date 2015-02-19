@@ -8,6 +8,6 @@ class PrimeNumbers
   end
 
   def primes
-    Prime.first(number_of_primes)
+    PrimeNumbers::Generator.generate(number_of_primes)
   end
 end
