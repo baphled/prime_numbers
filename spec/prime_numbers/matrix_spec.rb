@@ -17,12 +17,4 @@ RSpec.describe PrimeNumbers::Matrix do
   it "stores a matrix of primes numbers" do
     expect(subject.matrix).to eql(matrix)
   end
-
-  describe "#new" do
-    it 'takes a array of primes numbers'
-  end
-
-  describe "generate" do
-    it "generates a grid based on the number of primes numbers requested"
-  end
 end
