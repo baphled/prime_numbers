@@ -21,5 +21,11 @@ describe PrimeNumbers::Display do
 
       subject.print
     end
+
+    it 'prints the grid' do
+      expect(PrimeNumbers::Printer).to receive(:display)
+
+      subject.print
+    end
   end
 end
